@@ -599,8 +599,8 @@ footer .linha-rodape p a{
         }
     
         .secao-habilidades .cards-box {
-            margin-bottom: 20px;
-            margin-top: 20px;
+            /* margin-bottom: 10px; */
+            margin-top: 5px;
         }
         .secao-habilidades .h2{
             margin-bottom: 0px;
@@ -609,7 +609,7 @@ footer .linha-rodape p a{
         /* sobre */
         section.sobre{
             padding: 100px 8%;
-            scroll-margin-top: 80px; 
+            scroll-margin-top: 80px;
 
 
         }
@@ -630,7 +630,10 @@ footer .linha-rodape p a{
             margin: 0 auto;
             
         }
+        .sobre .txt-sobre h2{
+            margin-bottom: 75px;
 
+        }
         
 
         /* projetos */
