@@ -44,7 +44,7 @@ nav.menu-desktop ul li a::after {
 }
 
 .botao-contato button {
-    padding: 10px 25px;
+    padding: 15px 25px;
     font-size: 16px;
     font-weight: 600px;
     background-color: transparent;
@@ -53,7 +53,25 @@ nav.menu-desktop ul li a::after {
     border-radius: 8px;
     transition: 0.2s;
     cursor: pointer;
-    margin-top: 17px;
+    margin-top: 2px;
+    align-items: center;
+
+
+
+} 
+.botao-contato button.download {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: 600px;
+    background-color: transparent;
+    color: #E5B8F4; 
+    border: 2px solid #9F73AB; 
+    border-radius: 8px;
+    transition: 0.2s;
+    cursor: pointer;
+    margin-top: 25px;
+    align-items: center;
+
 
 
 } 
@@ -232,16 +250,18 @@ header nav.menu-desktop ul li {
 
 /* Seção Principal */
 section.secao-principal {
-    padding: 250px 4%;
+    padding: 170px 4%;
 
     
 
 } 
 
+
 section.secao-principal .flex {
     align-items: center;
     justify-content: space-between;
     gap: 90px;
+    margin-top: 80px;
     
 }
 
@@ -261,7 +281,7 @@ section.secao-principal .flex {
 .secao-principal .descricao p {
     color: #9F73AB; 
     font-size: 18px;
-    line-height: 2;
+    line-height: 3;
     margin: 10px 0;
 }
 
@@ -284,7 +304,7 @@ section.secao-principal .flex {
 /* Seção Habilidades */
 
 section.secao-habilidades {
-    padding: 250px 4%;
+    padding: 170px 4%;
 
 
 } 
@@ -293,12 +313,15 @@ section.secao-habilidades .flex {
     gap: 60px;
     justify-content: center;
     flex-wrap: wrap;
+    margin-top: 50px;
 }
-
+.secao-habilidades .h2{
+    margin-bottom: 20px;
+}
 .secao-habilidades .cards-box {
     color: #9F73AB;
     padding: 40px;
-    margin-top: 60px;
+    margin-top: 90px;
     border-radius: 5px 5px 40px 1px;
     transition: .2s;
     display: flex;
@@ -307,6 +330,7 @@ section.secao-habilidades .flex {
     align-items: center; 
     width: 150px; 
     height: 170px; 
+    margin-bottom: 50px;
 }
 
 
@@ -333,7 +357,7 @@ section.secao-habilidades .flex {
 /* SEÇAÕ SOBRE */
 
 section.sobre{
-    padding: 120px 4%;
+    padding: 170px 4%;
 
 
 }
@@ -359,7 +383,7 @@ section.sobre .txt-sobre{
     color: #fff;
     margin: 15px 0;
     text-align: justify;
-    font-size: 16px;
+    font-size: 18px;
 
 
 } 
@@ -368,7 +392,7 @@ section.sobre .txt-sobre h2 {
     font-size: 30px;
     color: #fff;
     text-align: center;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 
     
 }
@@ -378,8 +402,9 @@ section.sobre .txt-sobre h2 span{
 }   
 
 section.sobre .img-sobre img{
-    width: 414px;
-    height: 500px;
+    margin-top: 70px;
+    width: 410px;
+    height: 460px;
     border-radius: 40px;
 }
 
@@ -391,13 +416,15 @@ section.sobre .img-sobre img{
 /* Seção Projetos */
 
 section.projetos{
-    padding: 80px 4%;
+    padding: 170px 4%;
 }
 
 section.projetos .flex{
     justify-content: space-around;
     margin-top: 90px;
     gap: 30px;
+    margin-bottom: 90px;
+
 }
 .img-proj{
     width: 310px;
@@ -422,7 +449,7 @@ section.projetos .flex{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: #845691e7;
+    background-color: #845691b2;
     border-radius: 20px 10px 20px;
     display: flex;
     align-items: center;
