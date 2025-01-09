@@ -44,7 +44,7 @@ nav.menu-desktop ul li a::after {
 }
 
 .botao-contato button {
-    padding: 15px 25px;
+    padding: 13px 25px;
     font-size: 16px;
     font-weight: 600px;
     background-color: transparent;
@@ -673,5 +673,3 @@ footer .linha-rodape p a{
             display: block;
         }
 }
-
-
