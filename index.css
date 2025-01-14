@@ -176,6 +176,7 @@ header nav.menu-desktop ul li {
 
 .btn-abrir-menu{
     display: none;
+    cursor: pointer;
 }
 
 .btn-abrir-menu i{
@@ -212,6 +213,7 @@ header nav.menu-desktop ul li {
 .menu-mobile .btn-fechar i{
     color: #9F73AB;
     font-size: 30px;
+    cursor: pointer;
 
 }
 
@@ -250,7 +252,7 @@ header nav.menu-desktop ul li {
 
 /* Seção Principal */
 section.secao-principal {
-    padding: 150px 4%;
+    padding: 110px 4%;
     min-height: 100vh;
     box-sizing: border-box;
 }
@@ -305,7 +307,7 @@ section.secao-principal .flex {
 
 section.secao-habilidades {
     padding: 140px 4%;
-    scroll-margin-top: 80px;
+    /* scroll-margin-top: 80px; */
 
 
 
@@ -399,8 +401,6 @@ section.sobre .img-sobre img{
     border-radius: 40px;
 }
 
-
- 
 
 
 
@@ -538,15 +538,17 @@ footer .linha-rodape p a{
         /* DESCRIÇÃO */
 
         section.secao-principal {
-            padding: 130px 4%; /* Reduz o padding para telas menores */
-            min-height: 100vh;
+            margin-top: 50px;
+            min-height:2vh;
+            margin-bottom: 0.60px;
+            padding: 119px 4%;
         }
     
 
         section.secao-principal .flex {
             align-items: center;
             justify-content: space-between;
-            gap: 90px;
+            gap: 100px;
             margin-top: 0;
             
         }
@@ -639,7 +641,7 @@ footer .linha-rodape p a{
         /* projetos */
         section.projetos{
             padding: 80px 8%;
-            scroll-margin-top: 80px; 
+            scroll-margin-top: 50px; 
 
         }
 
